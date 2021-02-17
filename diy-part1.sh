@@ -12,7 +12,6 @@
 
 git clone https://github.com/vernesong/OpenClash package/OpenClash
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
-cd package/lean/  &&  git clone https://github.com/jerrykuku/lua-maxminddb.git  &&  git clone https://github.com/jerrykuku/luci-app-vssr.git
 
 
 # Uncomment a feed source
@@ -20,4 +19,4 @@ cd package/lean/  &&  git clone https://github.com/jerrykuku/lua-maxminddb.git  
 
 # Add a feed source
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-
+sed -i '$a  src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
