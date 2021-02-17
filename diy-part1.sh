@@ -9,7 +9,8 @@
 # File name: diy-part1.sh
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
-
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
 git clone https://github.com/vernesong/OpenClash package/OpenClash
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 
