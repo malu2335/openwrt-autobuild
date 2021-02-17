@@ -14,10 +14,6 @@ git clone https://github.com/vernesong/OpenClash package/OpenClash
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 cd package/lean/  &&  git clone https://github.com/jerrykuku/lua-maxminddb.git  &&  git clone https://github.com/jerrykuku/luci-app-vssr.git
 
-cd ~/openwrt
-
-./scripts/feeds update -a
-./scripts/feeds install -a
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
