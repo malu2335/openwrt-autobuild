@@ -11,8 +11,11 @@
 #
 
 git clone https://github.com/vernesong/OpenClash package/OpenClash
-./scripts/feeds update luci-app-openclash
-./scripts/feeds install luci-app-openclash
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
+
+./scripts/feeds update -a
+./scripts/feeds install -a
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
