@@ -11,6 +11,8 @@
 #
 
 git clone https://github.com/vernesong/OpenClash package/OpenClash
+./scripts/feeds update luci-app-openclash
+./scripts/feeds install luci-app-openclash
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
