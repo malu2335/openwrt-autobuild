@@ -10,6 +10,8 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
 
+git clone https://github.com/vernesong/OpenClash package/OpenClash
+
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
