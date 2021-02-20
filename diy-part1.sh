@@ -10,7 +10,7 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
 
-git clone https://github.com/vernesong/OpenClash package/OpenClash
+
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 
 
