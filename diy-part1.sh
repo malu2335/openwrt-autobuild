@@ -12,7 +12,7 @@
 
 
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
-
+git clone https://github.com/Lienol/openwrt-OpenAppFilter.git package/luci-app-oaf
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
